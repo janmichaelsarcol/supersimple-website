@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+    <title>JM VIRTUAL SERVICES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="indext.html"><img src="image%20logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="indext.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="company.html">COMPANY</a></li>
+                     <li><a href="blog.html">BLOG</a></li>   
+                     <li><a href="contact.html">CONTACT</a></li>   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>        
+</section>
+  
+ <!----- contact us ----->   
+
+<section class="location">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.7752509828993!2d123.94705967503606!3d10.359847289764708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a998725d929257%3A0x453946ab717d94ed!2sGo%20Ka%20Oh%20Building!5e0!3m2!1sen!2sph!4v1703869099587!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>  
+    
+<section class="contact-us">
+    
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>9W5X+WVJ, Mandaue City, Cebu</h5>
+                    <p>Basak, Mandaue City, Cebu, Phil.</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>(02)422-2365</h5>
+                    <p>Monday to Friday, 10PM to 7AM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>jan@dealmakerrealtor.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+        
+             <form action="form-handler.php" method="post">
+                 <input type="text" name="name" placeholder="Enter your name">
+                 <input type="email" name="email" placeholder="Enter email address">
+                 <input type="text" name="subject" placeholder="Enter your subject">
+                 <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                 <button type="submit" class="hero-btn gray-btn">Send Message</button>
+             </form>
+        
+        
+       </div> 
+    </div>
+    
+    
+</section>    
+    
+    
+    
+    
+    
+    
+ 
+<!------ Footer ----->   
+    
+<secion class="footer">
+    <h4>About Us</h4>
+    <p>With JM Virtual Services, we are here to make your work easy and we will do our task quickly good and fantastic.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+  </secion>
+    
+    
+    
+ <!--------JavaScript for Toggle Menu------->    
+ <script>
+     
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    } 
+</script>   
+
+</body>
+</html>
